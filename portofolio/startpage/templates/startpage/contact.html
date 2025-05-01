@@ -1,0 +1,15 @@
+{% extends "startpage/layout.html" %}
+{% load static %}
+
+{% block head %}
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+{% endblock %}
+
+{% block title %}Contact | My Portfolio{% endblock %}
+
+{% block content %}
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:robert.aghenitei@gmail.com">robert.aghenitei@gmail.com</a></p>
+</section>
+{% endblock %}
